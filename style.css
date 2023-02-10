@@ -1,0 +1,202 @@
+.box{
+    
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+.parent3{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    justify-content: space-between;
+}
+@keyframes boxc {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(270deg);
+    }
+
+}
+.box1{
+    animation-name: boxc;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-color: orangered;
+    animation-timing-function: ease;
+    
+}
+.parent1{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    justify-content: space-between;
+
+}
+@keyframes boxa{
+    0%{
+        transform: skewx(0deg);
+    }
+    50%{
+        transform: skewx( 20deg);
+    }
+    100%{transform:skewx(-20deg)
+        
+}
+}
+.box2{
+    animation-name: boxa;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: crimson;
+
+}
+.parent2{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    justify-content: space-between;
+}
+@keyframes boxb {
+    0%{
+        
+        transform: skewY(0deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{transform:skewY(20deg);
+  
+}
+}
+.box3{
+    animation-name: boxb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: darkblue;
+}
+.parent4{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    justify-content: space-between;
+}
+@keyframes boxd {
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(1.5);
+
+    }
+    
+}
+.box4{
+    animation-name: boxd;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: antiquewhite;
+}
+@keyframes boxe{
+    0%{
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1.5);
+    }
+}
+
+.box5{
+    animation-name: boxe;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+}
+@keyframes boxf{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(100deg);
+    }
+
+}
+.box6{
+    animation-name: boxf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: cadetblue;
+}
+.list{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.page2{
+    display: flex;
+    justify-content: center;
+}
+.p2box{
+    margin: 25px ;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+}
+.box21{
+transition: width 3s;
+transition-timing-function: linear;
+
+}
+.box21:hover{
+    width: 400px;
+}
+.box22{
+    transition: width 2s , height 2s;
+}
+.box22:hover{
+    width: 300px;
+    height: 325px;
+}
+.box23{
+    transition: width 3s;
+    transition-timing-function: ease-out;
+}
+.box23:hover{
+    width: 400px;
+}
+.box24{ 
+    transition: width 3s;
+    transition-timing-function: ease-in;
+}
+.box24:hover{
+    width: 400px;
+}
+.box25{ 
+    transition: width 3s;
+    transition-timing-function: ease-in-out;
+}
+.box25:hover{
+    width: 400px;
+}
+.box26{
+    transition: width 3s;
+    transition-timing-function: ease;
+
+}
+.box26:hover{
+    width: 400px;
+}
+.box27{
+    transition: width 3s;
+    transition-timing-function:ease-in;
+
+}
+.box27:hover{
+    width: 400px;
+}
