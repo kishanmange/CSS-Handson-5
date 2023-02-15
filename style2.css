@@ -121,7 +121,7 @@
     width: 50px;
     position: absolute;
     left: 470px;
-    bottom: 145px;
+    bottom: 144px;
     animation-name: wheel;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -140,7 +140,7 @@
     width: 50px;
     position: absolute;
     left: 623px;
-    bottom: 145px;
+    bottom: 143px;
     animation-name: wheel;
     animation-duration: 1s;
     animation-iteration-count: infinite;
